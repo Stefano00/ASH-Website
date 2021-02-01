@@ -1,0 +1,18 @@
+.fondo-footer{
+    background-color: #232751 ;
+}
+.whiteFont{
+    color: white;
+}
+
+.padding-top{
+    padding-top: 10rem;
+}
+.padding-bottom{
+    padding-bottom: 10rem;
+}
+
+.centrar-horizontal{
+    justify-content: center;
+    display: flex;
+}

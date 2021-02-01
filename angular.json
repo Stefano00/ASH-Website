@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ash-website"
+  "defaultProject": "ash-website",
+  "cli": {
+    "analytics": false
+  }
 }
