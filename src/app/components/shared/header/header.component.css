@@ -1,0 +1,11 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(65, 69, 103, 0.8) !important;
+  }
+
+  .whiteFont{
+    color: white !important;
+  }
+
