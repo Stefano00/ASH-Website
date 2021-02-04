@@ -101,45 +101,55 @@
 </div>
 
 <div class="fondo-tarjetas">
-    <div class="container-fluid" style="padding-top: 13rem;">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t">
+                <div class="card" style="width: 20rem;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Asesorías.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h2 class="card-title">Asesorías, estudios,
+                        desarrollo de ingenería
+                        de detalle y software</h2>
+                      <p *ngIf="!this.cardBoolean1" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                      <p *ngIf="this.cardBoolean1" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
+                      <button *ngIf="!this.cardBoolean1" (click)="card1()" class="btn btn-primary">Ver más</button>
                     </div>
                   </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5">
+                <div class="card" style="width: 20rem;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Control.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h2 class="card-title">Control de procesos
+                        industriales</h2>
+                        <p *ngIf="!this.cardBoolean2" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean2" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean2" (click)="card2()" class="btn btn-primary">Ver más</button>
                     </div>
                   </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5">
+                <div class="card" style="width: 20rem;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Montaje.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h2 class="card-title">Montaje eléctrico e
+                        instrumentación</h2>
+                        <p *ngIf="!this.cardBoolean3" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean3" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean3" (click)="card3()" class="btn btn-primary">Ver más</button>
                     </div>
                   </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-b">
+                <div class="card" style="width: 20rem;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Gabinetes.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <h2 class="card-title">Integración de
+                        gabinetes de fuerza y
+                        control</h2>
+                        <p *ngIf="!this.cardBoolean4" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean4" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean4" (click)="card4()" class="btn btn-primary">Ver más</button>
                     </div>
                   </div>
             </div>
