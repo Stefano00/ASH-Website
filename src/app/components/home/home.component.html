@@ -95,7 +95,8 @@
 
 
 <div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal" style="padding-top: 9rem; z-index: 1000; position: inherit;">Servicios</h1>
+    <h1 class="whiteFont centrar-vertical centrar-horizontal"
+        style="padding-top: 9rem; z-index: 1000; position: inherit;">Servicios</h1>
     <div class="layer">
     </div>
 </div>
@@ -103,55 +104,83 @@
 <div class="fondo-tarjetas">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t">
-                <div class="card" style="width: 20rem;">
-                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Asesorías.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
-                    <div class="card-body">
-                      <h2 class="card-title">Asesorías, estudios,
-                        desarrollo de ingenería
-                        de detalle y software</h2>
-                      <p *ngIf="!this.cardBoolean1" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                      <p *ngIf="this.cardBoolean1" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
-                      <button *ngIf="!this.cardBoolean1" (click)="card1()" class="btn btn-primary">Ver más</button>
+            <div
+                class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t" style="height: fit-content;">
+              
+                    <div class="card" style="width: 20rem;">
+                        <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Asesorías.png"
+                            class="card-img-top centrar-tarjeta" alt="asesorias" style="width:min-content;">
+                        <div class="card-body">
+                            <h2 class="card-title">Asesorías, estudios,
+                                desarrollo de ingenería
+                                de detalle y software</h2>
+                            <p *ngIf="!this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem
+                                ipsum dolor sit, amet consectetur
+                                adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                            <p *ngIf="this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                                dolor sit, amet consectetur
+                                adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
+                                reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia
+                                quisquam
+                                iure ullam.</p>
+                            <button *ngIf="!this.cardBoolean1" (click)="card1()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver
+                                más</button>
+                        </div>
                     </div>
-                  </div>
+              
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5" style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
-                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Control.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Control.png"
+                        class="card-img-top centrar-tarjeta" alt="Control de procesos" style="width: min-content;">
                     <div class="card-body">
-                      <h2 class="card-title">Control de procesos
-                        industriales</h2>
-                        <p *ngIf="!this.cardBoolean2" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean2" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean2" (click)="card2()" class="btn btn-primary">Ver más</button>
+                        <h2 class="card-title">Control de procesos
+                            industriales</h2>
+                        <p *ngIf="!this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
+                            reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
+                            iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean2" (click)="card2()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5" style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
-                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Montaje.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Montaje.png"
+                        class="card-img-top centrar-tarjeta" alt="Montaje eléctrico" style="width: min-content;">
                     <div class="card-body">
-                      <h2 class="card-title">Montaje eléctrico e
-                        instrumentación</h2>
-                        <p *ngIf="!this.cardBoolean3" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean3" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean3" (click)="card3()" class="btn btn-primary">Ver más</button>
+                        <h2 class="card-title">Montaje eléctrico e
+                            instrumentación</h2>
+                        <p *ngIf="!this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
+                            reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
+                            iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean3" (click)="card3()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
                     </div>
-                  </div>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-3 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-b">
+            <div
+                class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-b" style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
-                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Gabinetes.png" class="card-img-top centrar-tarjeta" alt="..." style="width: max-content;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Gabinetes.png"
+                        class="card-img-top centrar-tarjeta" alt="Fuerza y control" style="width: min-content;">
                     <div class="card-body">
-                      <h2 class="card-title">Integración de
-                        gabinetes de fuerza y
-                        control</h2>
-                        <p *ngIf="!this.cardBoolean4" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean4" class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean4" (click)="card4()" class="btn btn-primary">Ver más</button>
+                        <h2 class="card-title">Integración de
+                            gabinetes de fuerza y
+                            control</h2>
+                        <p *ngIf="!this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
+                            reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
+                            iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean4" (click)="card4()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -159,7 +188,167 @@
 </div>
 
 <div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal" style="padding-top: 9rem; z-index: 1000; position: inherit;">Experiencia</h1>
+    <h1 class="whiteFont centrar-vertical centrar-horizontal"
+        style="padding-top: 9rem; z-index: 1000; position: inherit;">Experiencia</h1>
     <div class="layer">
+    </div>
+</div>
+<div class="fondo-titulo" style="height: 20rem;">
+    <h1 class="whiteFont centrar-vertical centrar-horizontal"
+        style="padding-top: 9rem; z-index: 1000; position: inherit;">Clientes</h1>
+    <div class="layer">
+    </div>
+</div>
+<div class="fondo-titulo" style="height: 20rem;">
+    <h1 class="whiteFont centrar-vertical centrar-horizontal"
+        style="padding-top: 9rem; z-index: 1000; position: inherit;">Nosotros</h1>
+    <div class="layer">
+    </div>
+</div>
+<div class="fondo-tarjetas">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t"
+                style="padding-left: 3%; padding-right: 3%;">
+                <h5>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis consequuntur beatae, nostrum
+                    neque
+                    eius deserunt tempora quasi ullam qui unde molestiae labore ad numquam, quas vero non voluptas
+                    incidunt.
+                    Molestias?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quos dolore molestiae atque ipsum
+                    vitae
+                    animi assumenda tempore, error veritatis saepe illum omnis libero, laboriosam numquam sint sequi,
+                    voluptatum quo.
+                </h5>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t"
+                style="padding-left: 3%; padding-right: 3%;">
+                <h5>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis consequuntur beatae, nostrum
+                    neque
+                    eius deserunt tempora quasi ullam qui unde molestiae labore ad numquam, quas vero non voluptas
+                    incidunt.
+                    Molestias?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A non eum culpa autem reiciendis,
+                    laudantium
+                    iusto minima ut veritatis nisi consequatur labore libero, perspiciatis dolor optio. Dicta tempore
+                    nihil
+                    recusandae!
+                </h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="background-color: white;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical padding-top-5 tamaño-tarjetas-fixed-t"
+                style="padding-left: 3%; padding-right: 3%;">
+                <div>
+                    <h5 class="centrar-vertical">Misión</h5>
+                    Proveer a nuestros clientes de las mejores y más eficientes soluciones relacionadas con
+                    sus necesidades especificas de electricidad industrial, automatizacón y servicios
+                    asociados, respetando la seguridad y salud de nuestros trabajadores, colaboradores y
+                    relacionados.
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical padding-top-5 tamaño-tarjetas-fixed-t"
+                style="padding-left: 3%; padding-right: 3%;">
+                <div>
+                    <h5 class="centrar-vertical">Visión</h5>
+                    Lograr y mantener el liderazgo en el mercado, ser reconocidos como una de las
+                    empresas del rubro más exitosas del pais. Ser la mejor opción en servicios,
+                    instalaciones, equipos y comunicaciones. Consolidando la seguridad y confianza de
+                    nuestros clientes y otras partes interesadas
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding: 5%">
+    <div class="container-fluid" style="background-color: #9a599d; border-radius: 15px;">
+        <div class="row" style="margin-right: 5%; margin-left: 5%;">
+            <div class="col-12 centrar-vertical whiteFont padding-top-5">
+                <h5>POLITICA SGI</h5>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <p class="whiteFont">Identificamos los requerimientos de nuestros clientes y otras
+                    partes interesadas relacionados con calidad, plazos y costos,
+                    con la finalidad de cumplir sus expectativas. Mejoramos
+                    constantemente nuestro sistema de gestión integrado para
+                    acompañar la creciente demanda de productos y servicios.
+                    Evaluamos y mejoramos de forma constante nuestros
+                    estándares para brindar a nuestros trabajadores, contratistas
+                    y partes interesadas un ambiente de trabajo adecuado y
+                    seguro en el
+                    desarrollo de nuestras tareas. Reconocemos las actividades
+                    asociadas a la capacitación de nuestro personal como
+                    herramienta fundamental para el alcance de objetivos.
+                    Identificamos los requisitos legales asociados y aplicados a </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 padding-bottom-5">
+                <p class="whiteFont">nuestras operaciones con la finalidad de comprometernos a
+                    su gradual cumplimiento en las áreas de calidad y seguridad y
+                    salud ocupacional.
+                    Nuestra Política Integrada es de manejo público, aseguramos
+                    que nuestro personal directo y contratistas conocen y aplican
+                    dicha política y están comprometidos con su cumplimiento.
+                    Aplicamos las herramientas organizacionales necesarias para
+                    mantener y mejorar continuamente esta política, así como
+                    nuestro SGI.
+                    Se define el alcance de nuestro SGI como:
+                    “Servicios en gestión de ingeniería, diseño, integración e
+                    implementación de proyectos Eléctricos
+                    y de Automatización, para la los sectores minero e industrial” </p>
+                <br>
+                <p class="whiteFont">
+                    Gerente General
+                    <br>
+                    Juan Carlos Sandoval
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fondo-titulo" style="height: 20rem;">
+    <h1 class="whiteFont centrar-vertical centrar-horizontal"
+        style="padding-top: 9rem; z-index: 1000; position: inherit;">Contáctanos</h1>
+    <div class="layer">
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5" style="padding: 5%;">
+            <h2 style="padding-bottom: 2%;">Contáctanos</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="text" placeholder="Nombre*">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="text" placeholder="Correo electronico*">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="text" placeholder="Número de teléfono*">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="text" placeholder="Motivo consulta*">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <textarea class="form-control fondoInput" id="textAreaExample" rows="4" placeholder="Mensaje*"
+                            style="min-height: 100px;"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7" style="padding: 5%;">
+            <app-maps></app-maps>
+        </div>
     </div>
 </div>

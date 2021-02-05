@@ -146,3 +146,8 @@
     padding-top: 10%;
     padding-left: 30%;
 }
+
+.fondoInput{
+    background-color: #e0e1f2;
+    height: 3rem;
+}
