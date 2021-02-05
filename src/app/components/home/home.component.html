@@ -94,77 +94,82 @@
 </div>
 
 
-<div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal"
-        style="padding-top: 9rem; z-index: 1000; position: inherit;">Servicios</h1>
-    <div class="layer">
-    </div>
-</div>
+<app-title [title]="this.title[0]"></app-title>
+
 
 <div class="fondo-tarjetas">
     <div class="container-fluid">
         <div class="row">
-            <div
-                class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t" style="height: fit-content;">
-              
-                    <div class="card" style="width: 20rem;">
-                        <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Asesorías.png"
-                            class="card-img-top centrar-tarjeta" alt="asesorias" style="width:min-content;">
-                        <div class="card-body">
-                            <h2 class="card-title">Asesorías, estudios,
-                                desarrollo de ingenería
-                                de detalle y software</h2>
-                            <p *ngIf="!this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem
-                                ipsum dolor sit, amet consectetur
-                                adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                            <p *ngIf="this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem ipsum
-                                dolor sit, amet consectetur
-                                adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
-                                reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia
-                                quisquam
-                                iure ullam.</p>
-                            <button *ngIf="!this.cardBoolean1" (click)="card1()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver
-                                más</button>
-                        </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-t"
+                style="height: fit-content;">
+
+                <div class="card" style="width: 20rem;">
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Asesorías.png"
+                        class="card-img-top centrar-tarjeta" alt="asesorias" style="width:min-content;">
+                    <div class="card-body">
+                        <h2 class="card-title">Asesorías, estudios,
+                            desarrollo de ingenería
+                            de detalle y software</h2>
+                        <p *ngIf="!this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem
+                            ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
+                        <p *ngIf="this.cardBoolean1" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
+                            adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
+                            reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia
+                            quisquam
+                            iure ullam.</p>
+                        <button *ngIf="!this.cardBoolean1" (click)="card1()" class="btn btn-outline-secondary"
+                            style="width: -webkit-fill-available;">Ver
+                            más</button>
                     </div>
-              
+                </div>
+
             </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5" style="height: fit-content;">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5"
+                style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
                     <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Control.png"
                         class="card-img-top centrar-tarjeta" alt="Control de procesos" style="width: min-content;">
                     <div class="card-body">
                         <h2 class="card-title">Control de procesos
                             industriales</h2>
-                        <p *ngIf="!this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="!this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="this.cardBoolean2" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
                             reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
                             iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean2" (click)="card2()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
+                        <button *ngIf="!this.cardBoolean2" (click)="card2()" class="btn btn-outline-secondary"
+                            style="width: -webkit-fill-available;">Ver más</button>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5" style="height: fit-content;">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5"
+                style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
                     <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Montaje.png"
                         class="card-img-top centrar-tarjeta" alt="Montaje eléctrico" style="width: min-content;">
                     <div class="card-body">
                         <h2 class="card-title">Montaje eléctrico e
                             instrumentación</h2>
-                        <p *ngIf="!this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="!this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="this.cardBoolean3" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
                             reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
                             iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean3" (click)="card3()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
+                        <button *ngIf="!this.cardBoolean3" (click)="card3()" class="btn btn-outline-secondary"
+                            style="width: -webkit-fill-available;">Ver más</button>
                     </div>
                 </div>
             </div>
-            <div
-                class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-b" style="height: fit-content;">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 centrar-vertical padding-bottom-5 padding-top-5 tamaño-tarjetas-fixed-b"
+                style="height: fit-content;">
                 <div class="card" style="width: 20rem;">
                     <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Gabinetes.png"
                         class="card-img-top centrar-tarjeta" alt="Fuerza y control" style="width: min-content;">
@@ -172,13 +177,16 @@
                         <h2 class="card-title">Integración de
                             gabinetes de fuerza y
                             control</h2>
-                        <p *ngIf="!this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="!this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit...</p>
-                        <p *ngIf="this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum dolor sit, amet consectetur
+                        <p *ngIf="this.cardBoolean4" class="card-text animate__animated animate__fadeIn">Lorem ipsum
+                            dolor sit, amet consectetur
                             adipisicing elit. Quod, quam, harum expedita dolores quae eligendi sit molestias
                             reprehenderit provident eum veniam dolore repellendus quidem beatae enim officia quisquam
                             iure ullam.</p>
-                        <button *ngIf="!this.cardBoolean4" (click)="card4()" class="btn btn-outline-secondary" style="width: -webkit-fill-available;">Ver más</button>
+                        <button *ngIf="!this.cardBoolean4" (click)="card4()" class="btn btn-outline-secondary"
+                            style="width: -webkit-fill-available;">Ver más</button>
                     </div>
                 </div>
             </div>
@@ -187,24 +195,75 @@
 
 </div>
 
-<div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal"
-        style="padding-top: 9rem; z-index: 1000; position: inherit;">Experiencia</h1>
-    <div class="layer">
+<app-title [title]="this.title[1]"></app-title>
+
+<div class="container-fluid" style="padding-left: 5%; padding-right: 5%;">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical"
+            style="height: -webkit-fill-available; padding-top: 5%; padding-bottom: 5%;">
+            <div class="card" style="width: 80%;">
+                <h5 style="padding-top: 5%; padding-left: 4%; color:#9a599d;">PROCESOS PRODUCTIVOS INDUSTRIALES</h5>
+                <img src="../../../assets/images/WEB ASH_Carpeta/Links/IMG_0034.jpg" class="card-img-top" alt="..."
+                    style="width: 100%; padding-left: 4%; padding-right: 4%; border-radius: 7%;">
+                <div class="card-body">
+                    <p style="padding: 1%;" class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                        enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                        ex ea Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam no
+                    </p>
+                    <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/Descarga.png" alt="Descarga"
+                        style="margin-left: 45%">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 centrar-vertical"
+            style="height: -webkit-fill-available;  padding-top: 5%; padding-bottom: 5%;">
+            <div class="card" style="width: 80%;">
+                <h5 style="padding-top: 5%; padding-left: 4%; color:#9a599d;">EQUIPOS Y SISTEMAS DE CONTROLES
+                    INDUSTRIALES</h5>
+                <!-- <img src="../../../assets/images/WEB ASH_Carpeta/Links/IMG_0034.jpg" class="card-img-top" alt="..." style="width: 100%; padding-left: 4%; padding-right: 4%; border-radius: 7%;"> -->
+                <div class="card-body">
+                    <p style="padding: 1%;" class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                        enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                        ex ea Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt ut
+                    </p>
+                    <button class="btn btn-outline-dark">Ver más</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal"
-        style="padding-top: 9rem; z-index: 1000; position: inherit;">Clientes</h1>
-    <div class="layer">
+
+
+<app-title [title]="this.title[2]"></app-title>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- <div class="col-12 col-sm-12 col-md-4 col-lg4">
+            <img src="../../../assets/images/WEB ASH_Carpeta/Iconos/1x/globo.png" alt="">
+            <div class="image-globo">
+                <p class="whiteFont">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    ut laoreet Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh euismod
+                    tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                </p>
+
+            </div>
+
+        </div> -->
     </div>
 </div>
-<div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal"
-        style="padding-top: 9rem; z-index: 1000; position: inherit;">Nosotros</h1>
-    <div class="layer">
-    </div>
-</div>
+
+
+<app-title [title]="this.title[3]"></app-title>
+
+
 <div class="fondo-tarjetas">
     <div class="container-fluid">
         <div class="row">
@@ -314,12 +373,8 @@
     </div>
 </div>
 
-<div class="fondo-titulo" style="height: 20rem;">
-    <h1 class="whiteFont centrar-vertical centrar-horizontal"
-        style="padding-top: 9rem; z-index: 1000; position: inherit;">Contáctanos</h1>
-    <div class="layer">
-    </div>
-</div>
+<app-title [title]="this.title[4]"></app-title>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5" style="padding: 5%;">

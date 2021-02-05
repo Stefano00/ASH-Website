@@ -11,6 +11,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MapsComponent } from './components/maps/maps.component';
 
 import { AgmCoreModule } from '@agm/core';
+import { TitleComponent } from './components/title/title.component';
 
 
 
@@ -20,7 +21,8 @@ import { AgmCoreModule } from '@agm/core';
     FooterComponent,
     HomeComponent,
     HeaderComponent,
-    MapsComponent
+    MapsComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

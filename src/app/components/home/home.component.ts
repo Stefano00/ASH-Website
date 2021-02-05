@@ -12,6 +12,14 @@ export class HomeComponent implements OnInit {
   cardBoolean3: boolean = false;
   cardBoolean4: boolean = false;
 
+  title: string[]=[
+    'Servicios',
+    'Experiencia',
+    'Clientes',
+    'Nosotros',
+    'Contáctanos'
+  ];
+
   constructor() { }
 
   ngOnInit(): void {

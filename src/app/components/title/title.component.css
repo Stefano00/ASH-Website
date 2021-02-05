@@ -1,0 +1,33 @@
+.fondo-titulo{
+    background-color: rgba(65, 69, 103, 0.8);
+    background-image: url('/assets/images/WEB\ ASH_Carpeta/Links/IMG_0034.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.whiteFont{
+    color: white;
+}
+
+.centrar-vertical{
+    justify-content: center;
+    display: flex;
+}
+
+.centrar-horizontal{
+    display: flex;
+    align-items: center;
+}
+
+
+.layer {
+    background-color: rgba(65, 69, 103, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
