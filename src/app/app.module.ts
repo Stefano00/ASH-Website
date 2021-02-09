@@ -7,10 +7,10 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatSliderModule } from '@angular/material/slider';
+// import { MatSliderModule } from '@angular/material/slider';
 import { MapsComponent } from './components/maps/maps.component';
 
-import { AgmCoreModule } from '@agm/core';
+// import { AgmCoreModule } from '@agm/core';
 import { TitleComponent } from './components/title/title.component';
 
 
@@ -26,11 +26,11 @@ import { TitleComponent } from './components/title/title.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    MatSliderModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyC5mEIW1C_0AxD0TAL9gWCm02OyavgKUDU'
-    })
+    BrowserAnimationsModule
+    // MatSliderModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyC5mEIW1C_0AxD0TAL9gWCm02OyavgKUDU'
+    // })
   ],
   providers: [],
   bootstrap: [AppComponent]

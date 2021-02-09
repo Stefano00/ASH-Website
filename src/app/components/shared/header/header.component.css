@@ -9,3 +9,10 @@
     color: white !important;
   }
 
+  .logo{
+    width: 15%;
+    height: auto;
+    margin-left: 7%;
+    min-width: 100px;
+}
+
