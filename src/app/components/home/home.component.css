@@ -39,22 +39,29 @@
 .centrar-horizontal{
     display: flex;
     align-items: center;
+
+}
+
+
+.center-images-100{
+    width: 100% !important;
+    height: auto;
 }
 
 .center-images-90{
-    width: 90%;
+    width: 90% !important;
     height: auto;
 }
 .center-images-70{
-    width: 70%;
+    width: 70% !important;
     height: auto;
 }
 .center-images-50{
-    width: 50%;
+    width: 50% !important;
     height: auto;
 }
 .center-images-30{
-    width: 30%;
+    width: 30% !important;
     height: auto;
 }
 
@@ -133,12 +140,5 @@
 .fondoInput{
     background-color: #e0e1f2;
     height: 3rem;
-}
-
-.image-globo{
-    background-image: url('/assets/images/WEB\ ASH_Carpeta/Iconos/1x/globo.png');
-    background-size: cover;
-    width: 100%;
-    height: auto;
 }
 

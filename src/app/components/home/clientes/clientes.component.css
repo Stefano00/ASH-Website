@@ -1,0 +1,23 @@
+
+
+.whiteFont{
+    color: white;
+}
+
+.cubo{
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+.centar-cubo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto-cubo{
+    margin-left: 4%;
+    margin-top: 10%;
+}
+

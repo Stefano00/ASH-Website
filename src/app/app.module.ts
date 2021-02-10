@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MapsComponent } from './components/maps/maps.component';
 
 import { TitleComponent } from './components/title/title.component';
+import { ClientesComponent } from './components/home/clientes/clientes.component';
+import { NuestrosClientesComponent } from './components/home/nuestros-clientes/nuestros-clientes.component';
 
 
 
@@ -20,7 +22,9 @@ import { TitleComponent } from './components/title/title.component';
     HomeComponent,
     HeaderComponent,
     MapsComponent,
-    TitleComponent
+    TitleComponent,
+    ClientesComponent,
+    NuestrosClientesComponent
   ],
   imports: [
     BrowserModule,

@@ -10,9 +10,12 @@ export class MapsComponent implements OnInit {
   lat = -33.599889365590265;
   lng = -70.71307697028443;
 
+
+  
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
