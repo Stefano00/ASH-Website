@@ -1,0 +1,23 @@
+h2{
+    color: #9a599e;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+p{
+    color: black;
+    font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: left;  
+}
+
+
+.carta2{
+
+    margin-top:12%;
+
+}
+.carta3{
+    margin-top:12%;
+}

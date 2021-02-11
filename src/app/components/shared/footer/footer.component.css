@@ -16,3 +16,18 @@
     justify-content: center;
     display: flex;
 }
+h5{
+    color: white;
+    font-weight: bold;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    line-height: 3rem;
+}
+
+p{
+    color: white;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    text-align: left;
+}

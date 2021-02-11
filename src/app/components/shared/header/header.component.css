@@ -1,18 +1,24 @@
 .navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(65, 69, 103, 0.8) !important;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(65, 69, 103, 0.8) !important;
   }
 
-  .whiteFont{
-    color: white !important;
-  }
+.whiteFont{
+  color: white !important;
+}
 
-  .logo{
-    width: 15%;
-    height: auto;
-    margin-left: 7%;
-    min-width: 100px;
+.logo{
+  width: 15%;
+  height: auto;
+  margin-left: 7%;
+  min-width: 100px;
+}
+
+.borderButton:hover{
+  padding-bottom: 4px;
+  border-bottom: 4px solid white;
+  width: fit-content;
 }
 

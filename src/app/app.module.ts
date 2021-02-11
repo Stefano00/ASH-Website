@@ -12,6 +12,9 @@ import { MapsComponent } from './components/maps/maps.component';
 import { TitleComponent } from './components/title/title.component';
 import { ClientesComponent } from './components/home/clientes/clientes.component';
 import { NuestrosClientesComponent } from './components/home/nuestros-clientes/nuestros-clientes.component';
+import { ProveedoresComponent } from './components/home/proveedores/proveedores.component';
+import { ServiciosComponent } from './components/home/servicios/servicios.component';
+import { NosotrosComponent } from './components/home/nosotros/nosotros.component';
 
 
 
@@ -24,7 +27,10 @@ import { NuestrosClientesComponent } from './components/home/nuestros-clientes/n
     MapsComponent,
     TitleComponent,
     ClientesComponent,
-    NuestrosClientesComponent
+    NuestrosClientesComponent,
+    ProveedoresComponent,
+    ServiciosComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,

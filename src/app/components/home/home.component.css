@@ -142,3 +142,28 @@
     height: 3rem;
 }
 
+.font{
+    color: white;
+    font-weight: bold;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    line-height: 3rem;
+}
+.font-black{
+    color: black;
+    font-weight: bold;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.fontButton{
+    color: white;
+    font-weight: bold;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
