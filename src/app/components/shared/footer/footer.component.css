@@ -25,9 +25,11 @@ h5{
     line-height: 3rem;
 }
 
-p{
+p, a{
     color: white;
     font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 17px;
     text-align: left;
 }
+
+

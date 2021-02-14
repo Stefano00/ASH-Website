@@ -15,6 +15,7 @@ import { NuestrosClientesComponent } from './components/home/nuestros-clientes/n
 import { ProveedoresComponent } from './components/home/proveedores/proveedores.component';
 import { ServiciosComponent } from './components/home/servicios/servicios.component';
 import { NosotrosComponent } from './components/home/nosotros/nosotros.component';
+import { ExperienciaComponent } from './components/home/experiencia/experiencia.component';
 
 
 
@@ -30,7 +31,8 @@ import { NosotrosComponent } from './components/home/nosotros/nosotros.component
     NuestrosClientesComponent,
     ProveedoresComponent,
     ServiciosComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,

@@ -10,9 +10,9 @@
 }
 
 .logo{
-  width: 15%;
+  width: 25%;
   height: auto;
-  margin-left: 7%;
+  /* margin-left: 7%; */
   min-width: 100px;
 }
 
@@ -20,5 +20,9 @@
   padding-bottom: 4px;
   border-bottom: 4px solid white;
   width: fit-content;
+}
+
+.header-title{
+  font-size: large;
 }
 

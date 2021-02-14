@@ -167,3 +167,138 @@
     text-align: center;
 }
 
+
+.margin-pag-l{
+    margin-left: 13%;
+    
+}
+.margin-pag-r{
+    
+    margin-right: 13%;
+}
+
+.margin-pag-l-11{
+    margin-left:8%;
+}
+.padding-pag-l-11{
+    padding-left:8%;
+}
+.margin-pag-r-11{
+     margin-right:8%;
+}
+.margin-pag-l-20{
+    margin-left:15%;
+}
+.margin-pag-r-20{
+     margin-right:15%;
+}
+.margin-pag-l-30{
+    margin-left:25%;
+}
+.margin-pag-r-30{
+     margin-right:25%;
+}
+.padding-pag-l-12{
+    padding-left:12%;
+}
+.padding-pag-r-12{
+    padding-right:12%;
+}
+.padding-pag-l-10{
+    padding-left:10%;
+}
+.padding-pag-r-10{
+    padding-right:10%;
+}
+
+@media (max-width: 1269px) {
+    .margin-pag-l{
+        margin-left: 5%;
+        
+    }
+  
+    .margin-pag-r{
+    
+        margin-right: 5%;
+    }
+    
+    .margin-pag-l-11{
+        margin-left:5%;
+    }
+    .padding-pag-l-11{
+        padding-left:5%;
+    }
+    .margin-pag-r-11{
+         margin-right:5%;
+    }
+    .margin-pag-l-20{
+        margin-left:10%;
+    }
+    .margin-pag-r-20{
+         margin-right:10%;
+    }
+    .margin-pag-l-30{
+        margin-left:10%;
+    }
+    .margin-pag-r-30{
+         margin-right:10%;
+    }
+    .padding-pag-l-12{
+        padding-left:5%;
+    }
+    .padding-pag-r-12{
+        padding-right:5%;
+    }
+    .padding-pag-l-10{
+        padding-left:5%;
+    }
+    .padding-pag-r-10{
+        padding-right:5%;
+    }
+}
+@media (max-width: 767px) {
+    .margin-pag-l{
+        margin-left: 5%;
+        
+    }
+    .margin-pag-r{
+    
+        margin-right: 5%;
+    }
+    
+    .margin-pag-l-11{
+        margin-left:5%;
+    }
+    .padding-pag-l-11{
+        padding-left:5%;
+    }
+    .margin-pag-r-11{
+         margin-right:5%;
+    }
+    .margin-pag-l-20{
+        margin-left:5%;
+    }
+    .margin-pag-r-20{
+         margin-right:5%;
+    }
+    .margin-pag-l-30{
+        margin-left:5%;
+    }
+    .margin-pag-r-30{
+         margin-right:5%;
+    }
+
+    .padding-pag-l-12{
+        padding-left:5%;
+    }
+    .padding-pag-r-12{
+        padding-right:5%;
+    }
+    .padding-pag-l-10{
+        padding-left:2%;
+    }
+    .padding-pag-r-10{
+        padding-right:2%;
+    }
+}
+

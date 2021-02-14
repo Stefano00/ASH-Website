@@ -1,10 +1,9 @@
 .font-nosotros{
-        color: black;
+        color: #272751;
         font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 25px;
+        font-size: 22px;
         text-align: left;
-      
-    
+        line-height: 1.5rem;
 }
 
 
