@@ -4,13 +4,17 @@
     <!-- fondo -->
 </div>
 
+
 <app-nuestros-clientes></app-nuestros-clientes>
+
 
 <div class="fondo-imagenes" style="height: 5rem;">
     <!-- fondo -->
 </div>
 
+
 <app-proveedores></app-proveedores>
+
 
 <div class="fondo-imagenes" style="height: 5rem;">
     <!-- fondo -->
@@ -27,8 +31,9 @@
                 </div>
 
                 <h3 class="whiteFont margin-top-3 font">Tienes algún proyecto?</h3>
-                <button type="button" class="btn btn-outline-light margin-top-3 margin-bottom-3 distancia-fixed fontButton"
-                    style="width: 30%; min-width: 15rem; height: 4rem;">Ponte en contacto</button>
+                <a data-scroll type="button"
+                    class="btn btn-outline-light margin-top-3 margin-bottom-3 distancia-fixed fontButton"
+                    style="width: 30%; min-width: 15rem; height: 4rem; padding-top: 2%;" href="#sec-5">Ponte en contacto</a>
             </div>
 
         </div>
@@ -40,7 +45,8 @@
                         class="tamaño-imagen-proyectos" style="width: auto;">
                 </div>
                 <h3 class="whiteFont margin-top-3 font">Quieres trabajar con nosotros?</h3>
-                <a href="mailto:stefano.marin.quintana@gmail.com" type="button" class="btn btn-outline-light margin-top-3 margin-bottom-3 fontButton" 
+                <a href="mailto:stefano.marin.quintana@gmail.com" type="button"
+                    class="btn btn-outline-light margin-top-3 margin-bottom-3 fontButton"
                     style="width: 30%; min-width: 15rem; height: 4rem; padding-top: 2%">Enviar cv</a>
             </div>
         </div>
@@ -48,26 +54,26 @@
 </div>
 
 
-<app-title [title]="this.title[0]"></app-title>
+<app-title [title]="this.title[0]" id="sec-1"></app-title>
 
 <app-servicios></app-servicios>
 
-<app-title [title]="this.title[1]"></app-title>
+<app-title [title]="this.title[1]" id="sec-2"></app-title>
 
 <app-experiencia></app-experiencia>
 
 
-<app-title [title]="this.title[2]"></app-title>
+<app-title [title]="this.title[2]" id="sec-3"></app-title>
 
 <app-clientes></app-clientes>
 
 
-<app-title [title]="this.title[3]"></app-title>
+<app-title [title]="this.title[3]" id="sec-4"></app-title>
 
 
 <app-nosotros></app-nosotros>
 
-<app-title [title]="this.title[4]"></app-title>
+<app-title [title]="this.title[4]" id="sec-5"></app-title>
 
 <div class="container-fluid padding-pag-l-10 padding-pag-r-10">
     <div class="row">
