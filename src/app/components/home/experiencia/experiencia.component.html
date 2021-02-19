@@ -7,15 +7,47 @@
                 <img src="assets/images/WEB_ASH_Carpeta/Links/IMG_0034.jpg" class="card-img-top" alt="..."
                     style="width: 100%; padding-left: 4%; padding-right: 4%; border-radius: 7%;">
                 <div class="card-body">
-                    <p style="padding: 1%;" class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-                        enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                        ex ea Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam no
+                    <p *ngIf="!this.experiencia1" style="padding: 1%;" class="card-text">
+                        Amplia experiencia en distintos procesos productivos e industriales tales como...
                     </p>
-                    <img src="assets/images/WEB_ASH_Carpeta/Iconos/1x/Descarga.png" alt="Descarga"
-                        style="margin-left: 40%">
+
+                    <p *ngIf="this.experiencia1" style="padding: 1%;" class="card-text animate__animated animate__fadeIn">
+                        Amplia experiencia en distintos procesos productivos e industriales tales como:
+                        <br>
+                        - Minería y Metalúrgica
+                        <br>
+                        - Siderúrgica
+                        <br>
+                        - Redes Eléctricas
+                        <br>
+                        - Generadoras Termo Eléctricas e Hidráulicas
+                        <br>
+                        - Redes y Sistemas de Telecomunicaciones
+                        <br>
+                        - Celulosa y Papel
+                        <br>
+                        - Tratamiento de Aguase
+                        <br>
+                        - Aserraderos
+                        <br>
+                        - Procesamiento de Alimentos
+                        <br>
+                        - Plantas de Alimento para Salmones y Harina de Pescado
+                        <br>
+                        - Puertos (Grúas)
+                        <br>
+                        - Ferrocarriles
+                        <br>
+                        - Sistema de Detección y extinción de incendios
+                        <br>
+                        - Terminales de ácido sulfúrico
+                        <br>
+                        - Control y Monitoreo de Grúas Portuarias
+
+                    </p>
+                    <img *ngIf="this.experiencia1" src="assets/images/WEB_ASH_Carpeta/Iconos/1x/Descarga.png"
+                        alt="Descarga animate__animated animate__fadeIn" style="margin-left: 40%">
+                    <button *ngIf="!this.experiencia1" (click)="card1()" class="btn btn-outline-dark button-exp">Ver más</button>
                 </div>
             </div>
         </div>
@@ -26,13 +58,73 @@
                     INDUSTRIALES</h3>
                 <!-- <img src="../../../assets/images/WEB_ASH_Carpeta/Links/IMG_0034.jpg" class="card-img-top" alt="..." style="width: 100%; padding-left: 4%; padding-right: 4%; border-radius: 7%;"> -->
                 <div class="card-body">
-                    <p style="padding: 1%;" class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
-                        enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-                        ex ea Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                        tincidunt ut
+                    <p *ngIf="!this.experiencia2" style="padding: 1%;" class="card-text animate__animated animate__fadeIn">
+                        Amplia experiencia y conocimiento en equipos y sistemas de controles industriales tales como...
                     </p>
-                    <button class="btn btn-outline-dark button-exp">Ver más</button>
+                    <p *ngIf="this.experiencia2" style="padding: 1%;" class="card-text animate__animated animate__fadeIn">
+                        Amplia experiencia y conocimiento en equipos y sistemas de controles industriales tales como:
+                        <br>
+                        <br>
+                        • PLC Telemecanique Tsx7
+                        <br>
+                        • PLC Rockwell series : PLC-5, SLC-500, CompactLogix, ControlLogix
+                        <br>
+                        • Hmi Rockwell PanelView, PanelView Plus
+                        <br>
+                        • PLC General Electric series 90-30, 90-70, Versamax, Rx3i
+                        <br>
+                        • Hmi General Electric QuickPannel+
+                        <br>
+                        • PLC Schneider series Quantum, Premium, M340, M580.
+                        <br>
+                        • Hmi Schneider Electric Magelis
+                        <br>
+                        • PLC Siemens S7-300, S7-400, S7-1500, PCS7
+                        <br>
+                        • Hmi Siemens Simatic Hmi, Comfort Panel.
+                        <br>
+                        • Software de Monitoreo y Control “Paragon”
+                        <br>
+                        • Software de Monitoreo y Control WinCC de Siemens
+                        <br>
+                        • Software de Monitoreo y Control “FIX de Intellution”
+                        <br>
+                        • Software de Monitoreo y Control “Citect”
+                        <br>
+                        • Software de Monitoreo y Control “Génesis”
+                        <br>
+                        • Software Supervisor y Control “Cimplicity” de General Electric (UNIX, Windows NT).
+                        <br>
+                        • Software Supervisor y Control “Proficy View- Machine Edition” de General Electric.
+                        <br>
+                        • Software Supervisor y Control “Monitor 77” de Telemecanique.
+                        <br>
+                        • Software de Monitoreo y Control “Interac” de G.E (Windows)
+                        <br>
+                        • Software Supervisor y Control “Intouch”, System Platform. AVEVA.
+                        <br>
+                        • Software Supervisor y Control “FactoryLink” de US Data (Windows 95/NT, OS/2, Unix).
+                        <br>
+                        • Software Supervisor y Control “FactoryTalkView” de Rockwell Automation.
+                        <br>
+                        • Software Supervisor y Control “ISIS 3000” de Merlin Gerin .
+                        <br>
+                        • Sistema EcoStruxure Control Expert Schneider.
+                        <br>
+                        • Sistema de Control DCS 800XA, Bailey-Infi90 de ABB.
+                        <br>
+                        • Sistema de Control DCS DeltaV™ de EMERSON.
+                        <br>
+                        • Bases de Datos Relacionales, Serie de Tiempo, KEY-VALUE y DOCUMENTAL entre las más conocidas
+                        ORACLE, INTERBASE, SYBASE, SQL Server, REDIS, MONGODB, INFLUXDB
+                        <br>
+                        • Desarrollo de Aplicaciones de supervisión, control y comunicación industrial propios sobre
+                        tecnología .NET bajo lenguaje C++ y C#.
+                        <br>
+                        • Sistemas CCTV PELCO Video Expert.
+
+                    </p>
+                    <button *ngIf="!this.experiencia2" (click)="card2()" class="btn btn-outline-dark button-exp">Ver más</button>
                 </div>
             </div>
         </div>

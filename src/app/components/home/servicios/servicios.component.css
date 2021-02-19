@@ -21,3 +21,8 @@ p{
 .carta3{
     margin-top:12%;
 }
+
+.sin-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}

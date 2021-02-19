@@ -26,3 +26,7 @@
   font-size: large;
 }
 
+.search{
+  position: fixed;
+  background-color: white;
+}

@@ -8,14 +8,28 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   search: boolean;
+  toSearch: any = [];
+  constructor() { 
+    this.toSearch=[
+      'Servicios',
+      'Experiencia',
 
-  constructor() { }
+    ]
+    
+  }
 
   ngOnInit(): void {
+  
   }
 
   searchButton(){
     this.search = !this.search;
   }
 
+
+  onChange(){
+    this.search = true;
+  }
+
+ 
 }

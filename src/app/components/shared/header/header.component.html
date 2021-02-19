@@ -31,7 +31,24 @@
             </li>
         </ul>
         <form class="form-inline me-2" style="flex-flow: inherit !important">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <input style="margin-left: 5%;" class="form-control"  (change)="onChange()" type="search" placeholder="Search" aria-label="Search">
+                        <div *ngIf="search" class="search">
+                            <a data-scroll href="#sec-1">Título 1</a>
+                            <br>
+                            <a data-scroll href="#sec-2">Título 2</a>
+                            <br>
+                            <a data-scroll href="#sec-3">Título 3</a>
+                            <br>
+                            <a data-scroll href="#sec-4">Título 4</a>
+                            <br>
+                            <a data-scroll href="#sec-5">Título 5</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <button class="btn my-2 my-sm-0" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                     height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: white;">
                     <path
@@ -39,4 +56,5 @@
                 </svg></button>
         </form>
     </div>
+
 </nav>

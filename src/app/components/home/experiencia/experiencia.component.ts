@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienciaComponent implements OnInit {
 
+  experiencia1: boolean = false;
+  experiencia2: boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  card1(){
+    this.experiencia1 = true;
+    this.experiencia2 = false;
+  
+  }
+  card2(){
+    this.experiencia1 = false;
+    this.experiencia2 = true;
+   
   }
 
 }
