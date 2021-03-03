@@ -26,7 +26,23 @@
   font-size: large;
 }
 
+@media (max-width: 991px) {
+  .searchInput{
+       margin-left: 0px !important;
+       padding-left: 0px !important;
+}
+  }
+
 .search{
   position: fixed;
   background-color: white;
+  width: 13rem;
+  padding: 0px !important;
+  padding-left: 0px;
+  margin-left: 0px;
+
 }
+
+
+
+

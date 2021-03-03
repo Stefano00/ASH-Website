@@ -16,6 +16,8 @@ import { ProveedoresComponent } from './components/home/proveedores/proveedores.
 import { ServiciosComponent } from './components/home/servicios/servicios.component';
 import { NosotrosComponent } from './components/home/nosotros/nosotros.component';
 import { ExperienciaComponent } from './components/home/experiencia/experiencia.component';
+import { FormsModule } from '@angular/forms';
+import { CarouselColMaxComponent } from './components/home/nuestros-clientes/carousel-col-max/carousel-col-max.component';
 
 
 
@@ -32,11 +34,13 @@ import { ExperienciaComponent } from './components/home/experiencia/experiencia.
     ProveedoresComponent,
     ServiciosComponent,
     NosotrosComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    CarouselColMaxComponent
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
    
   ],
   providers: [],

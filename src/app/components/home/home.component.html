@@ -82,24 +82,24 @@
             <form>
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control fondoInput" id="text" placeholder="Nombre*">
+                        <input type="text" class="form-control fondoInput" id="name" placeholder="Nombre*" name="name" [(ngModel)]="inputName" (ngModelChange)="formChange()">
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control fondoInput" id="text" placeholder="Correo electronico*">
+                        <input type="text" class="form-control fondoInput" id="email" placeholder="Correo electronico*" name="email" [(ngModel)]="inputEmail" (ngModelChange)="formChange()">
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control fondoInput" id="text" placeholder="Número de teléfono*">
+                        <input type="text" class="form-control fondoInput" id="phone" placeholder="Número de teléfono*" name="phone" [(ngModel)]="inputPhone" (ngModelChange)="formChange()">
                     </div>
                     <div class="form-group col-md-12">
-                        <input type="text" class="form-control fondoInput" id="text" placeholder="Motivo consulta*">
+                        <input type="text" class="form-control fondoInput" id="consult" placeholder="Motivo consulta*" name="consult" [(ngModel)]="inputConsult" (ngModelChange)="formChange()">
                     </div>
                     <div class="form-group col-md-12">
-                        <textarea class="form-control fondoInput" id="textAreaExample" rows="4" placeholder="Mensaje*"
+                        <textarea class="form-control fondoInput" id="message" rows="4" placeholder="Mensaje*" name="message" [(ngModel)]="inputMessage" (ngModelChange)="formChange()"
                             style="min-height: 500px;"></textarea>
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button class="btn btn-primary" (click)="onSubmit()">Enviar</button>
             </form>
         </div>
         <div class="col-12 col-sm-12 col-md-7 col-lg-7" style="padding: 5%;">

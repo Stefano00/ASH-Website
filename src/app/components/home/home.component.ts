@@ -16,9 +16,38 @@ export class HomeComponent implements OnInit {
     'Contáctanos'
   ];
 
+  form: any = {
+    name: '',
+    email: '',
+    phone: 0,
+    consult: '',
+    message: ''
+  };
+  
+  inputName: string;
+  inputEmail: string;
+  inputPhone: number;
+  inputConsult: string;
+  inputMessage: string;
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  formChange(){
+    this.form={
+      name: this.inputName,
+      email: this.inputEmail,
+      phone: this.inputPhone,
+      consult: this.inputConsult,
+      message: this.inputMessage
+    }
+  
+  }
+
+  onSubmit(){
+    console.log(this.form);
   }
 
 

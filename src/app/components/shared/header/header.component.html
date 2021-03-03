@@ -30,31 +30,26 @@
                 <a data-scroll class="nav-link active whiteFont borderButton header-title" href="#sec-5">Contáctanos</a>
             </li>
         </ul>
-        <form class="form-inline me-2" style="flex-flow: inherit !important">
-            <div class="container-fluid">
+        <form class="form-inline me-2 searchInput" style="flex-flow: inherit !important">
+            <div class="container-fluid searchInput">
                 <div class="row">
                     <div class="col-12">
-                        <input style="margin-left: 5%;" class="form-control"  (change)="onChange()" type="search" placeholder="Search" aria-label="Search">
-                        <div *ngIf="search" class="search">
-                            <a data-scroll href="#sec-1">Título 1</a>
-                            <br>
-                            <a data-scroll href="#sec-2">Título 2</a>
-                            <br>
-                            <a data-scroll href="#sec-3">Título 3</a>
-                            <br>
-                            <a data-scroll href="#sec-4">Título 4</a>
-                            <br>
-                            <a data-scroll href="#sec-5">Título 5</a>
+                        <input  autocomplete="off" class="form-control searchInput" name="search" [(ngModel)]="inputSearch" (ngModelChange)="onChange($event)"  placeholder="Search" aria-label="Search">
+                       
+                        <div *ngIf="search" class="search searchInput">
+                            <div *ngFor="let titulo of this.newList">
+                                <a data-scroll  class="dropdown-item searchInput" href="{{titulo.href}}">{{titulo.title}}</a>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-            <button class="btn my-2 my-sm-0" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+            <div class="btn my-2 my-sm-0"><svg xmlns="http://www.w3.org/2000/svg" width="16"
                     height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: white;">
                     <path
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                </svg></button>
+                </svg></div>
         </form>
     </div>
-
 </nav>
