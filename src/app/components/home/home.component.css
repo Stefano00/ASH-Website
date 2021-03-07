@@ -26,8 +26,6 @@
   }
   
   
-
-
 .fondo-imagenes{
     background-color: #e0e1f2;
 }
@@ -302,5 +300,15 @@
     .padding-pag-r-10{
         padding-right:2%;
     }
+}
+
+.img-principal{
+    width: 100%;
+    background-size: cover;
+}
+
+.contenedor-image-principal{
+    width: 100%;
+    height: auto;
 }
 

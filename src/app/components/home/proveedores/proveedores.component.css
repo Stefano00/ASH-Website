@@ -18,3 +18,21 @@ h1{
 .color-slide{
     color:black;
 }
+
+.displaySecundario{
+    display:none;
+    visibility: hidden;
+}
+
+
+@media (max-width: 767px) {
+    .displaySecundario{
+        display:block;
+    visibility: visible;
+    }
+    .displayPrincipal{
+        display:none;
+        visibility: hidden;
+    }
+    
+}

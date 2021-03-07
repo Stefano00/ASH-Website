@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CarouselColMaxComponent } from './carousel-col-max.component';
+import { CarouselMaxColComponent } from './carousel-max-col.component';
 
-describe('CarouselColMaxComponent', () => {
-  let component: CarouselColMaxComponent;
-  let fixture: ComponentFixture<CarouselColMaxComponent>;
+describe('CarouselMaxColComponent', () => {
+  let component: CarouselMaxColComponent;
+  let fixture: ComponentFixture<CarouselMaxColComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CarouselColMaxComponent ]
+      declarations: [ CarouselMaxColComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CarouselColMaxComponent);
+    fixture = TestBed.createComponent(CarouselMaxColComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
