@@ -16,27 +16,27 @@ export class HeaderComponent implements OnInit {
   constructor() {
     this.toSearch = [{
       title: 'Inicio',
-      href: '#sec-1'
+      href: '#'
     },
     {
       title: 'Servicios',
-      href: '#sec-2'
+      href: '#sec-1'
     },
     {
       title: 'Experiencia',
-      href: '#sec-3'
+      href: '#sec-2'
     },
     {
       title: 'Clientes',
-      href: '#sec-4'
+      href: '#sec-3'
     },
     {
       title: 'Nosotros',
-      href: '#sec-5'
+      href: '#sec-4'
     },
     {
       title: 'Contáctanos',
-      href: '#sec-6'
+      href: '#sec-5'
     }
  
     ]
