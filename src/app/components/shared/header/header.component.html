@@ -1,0 +1,101 @@
+<div class="navbarr" style="width: 100%; margin-left: 0px; padding-left: 0px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-12" style="padding-bottom: 1%; padding-top: 1%;">
+        <a class="navbar-brand margin-pag-l" href="#">
+            <img src="assets/images/WEB_ASH_Carpeta/Logo ASH/Logo ASH Ing y ProBlanco.png" alt="Logo Ash" class="logo">
+        </a>
+
+        <button style="color: white;" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse margin-pag-r" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title" aria-current="page"
+                        href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title"
+                        href="#sec-1">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title"
+                        href="#sec-2">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title"
+                        href="#sec-3">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title"
+                        href="#sec-4">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link active whiteFont borderButton header-title"
+                        href="#sec-5">Contáctanos</a>
+                </li>
+            </ul>
+            <form class="form-inline me-2 searchInput" style="flex-flow: inherit !important">
+                <div class="container-fluid searchInput buscador-responsive">
+                    <div class="row">
+                        <div class="col-12">
+                            <input autocomplete="off" class="form-control searchInput" name="search"
+                                [(ngModel)]="inputSearch" (ngModelChange)="onChange($event)" placeholder="Search"
+                                aria-label="Search">
+
+                            <div *ngIf="search" class="search searchInput">
+                                <div *ngFor="let titulo of this.newList">
+                                    <a data-scroll class="dropdown-item searchInput"
+                                        href="{{titulo.href}}">{{titulo.title}}</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div (click)="Search()" class="btn my-2 my-sm-0 buscador-responsive-none"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                        height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: white;">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg></div>
+            </form>
+        </div>
+
+    </nav>
+
+    <div *ngIf="buscador" class="buscador-responsive-none">
+        <div *ngIf="buscador" class="buscador col-12" style="color: white;">
+            <div class="container-fluid" style="padding-top: 1.5rem;  ">
+                <div class="row">
+                    <div class="btn my-2 my-sm-0 col-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: black;">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></div>
+
+
+                    <input autocomplete="off" class="form-control searchInput col-9" name="search"
+                        [(ngModel)]="inputSearch" (ngModelChange)="onChange($event)" placeholder="Buscar"
+                        aria-label="Search">
+
+
+                    <div (click)="Search()" class="btn my-2 my-sm-0 col-2"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                        </svg></div>
+
+                </div>
+            </div>
+        </div>
+        <div *ngIf="search" class="search searchInput col-12" style="width: 100%;">
+            <div *ngFor="let titulo of this.newList">
+                <a (click)="Search()" data-scroll class="dropdown-item searchInput"
+                    href="{{titulo.href}}">{{titulo.title}}</a>
+                <hr>
+            </div>
+        </div>
+    </div>
+</div>

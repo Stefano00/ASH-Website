@@ -1,0 +1,35 @@
+.fondo-footer{
+    background-color: #232751 ;
+}
+.whiteFont{
+    color: white;
+}
+
+.padding-top{
+    padding-top: 10rem;
+}
+.padding-bottom{
+    padding-bottom: 10rem;
+}
+
+.centrar-vertical{
+    justify-content: center;
+    display: flex;
+}
+h5{
+    color: white;
+    font-weight: bold;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    line-height: 3rem;
+}
+
+p, a{
+    color: white;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    text-align: left;
+}
+
+

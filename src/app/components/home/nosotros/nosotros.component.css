@@ -1,0 +1,31 @@
+.font-nosotros{
+        color: #272751;
+        font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 22px;
+        text-align: left;
+        line-height: 1.5rem;
+}
+
+
+.font-titulos{
+    color: black;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.font-politica{
+    color: white;
+    font-family: Arvo, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+        font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        text-align: left;
+}

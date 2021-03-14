@@ -1,0 +1,109 @@
+<img src="assets/images/WEB_ASH_Carpeta/Links/IMG_0034.jpg" alt="Imagen fondo" style="width: 100%;">
+
+<div class="fondo-imagenes" style="height: 5rem;">
+    <!-- fondo -->
+</div>
+
+
+<app-nuestros-clientes></app-nuestros-clientes>
+
+
+<div class="fondo-imagenes" style="height: 5rem;">
+    <!-- fondo -->
+</div>
+
+
+<app-proveedores></app-proveedores>
+
+
+<div class="fondo-imagenes" style="height: 5rem;">
+    <!-- fondo -->
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #9a599d;">
+            <div class="container margin-pag-l-30">
+                <div class="image-container margin-top-3">
+                    <img src="assets/images/WEB_ASH_Carpeta/Iconos/1x/Proyecto.png" alt="proyecto"
+                        class="tamaño-imagen-proyectos" style="width: auto;">
+                </div>
+
+                <h3 class="whiteFont margin-top-3 font">Tienes algún proyecto?</h3>
+                <a data-scroll type="button"
+                    class="btn btn-outline-light margin-top-3 margin-bottom-3 distancia-fixed fontButton"
+                    style="width: 30%; min-width: 15rem; height: 4rem; padding-top: 1rem;" href="#sec-5">Ponte en contacto</a>
+            </div>
+
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="background-color: #232751;">
+            <div class="container padding-pag-l-11">
+                <div class="image-container margin-top-3">
+                    <img src="assets/images/WEB_ASH_Carpeta/Iconos/1x/Trabajo.png" alt="proyecto"
+                        class="tamaño-imagen-proyectos" style="width: auto;">
+                </div>
+                <h3 class="whiteFont margin-top-3 font">Quieres trabajar con nosotros?</h3>
+                <a href="mailto:stefano.marin.quintana@gmail.com" type="button"
+                    class="btn btn-outline-light margin-top-3 margin-bottom-3 fontButton"
+                    style="width: 30%; min-width: 15rem; height: 4rem; padding-top: 1rem">Enviar cv</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<app-title [title]="this.title[0]" id="sec-1"></app-title>
+
+<app-servicios></app-servicios>
+
+<app-title [title]="this.title[1]" id="sec-2"></app-title>
+
+<app-experiencia></app-experiencia>
+
+
+<app-title [title]="this.title[2]" id="sec-3"></app-title>
+
+<app-clientes></app-clientes>
+
+
+<app-title [title]="this.title[3]" id="sec-4"></app-title>
+
+
+<app-nosotros></app-nosotros>
+
+<app-title [title]="this.title[4]" id="sec-5"></app-title>
+
+<div class="container-fluid padding-pag-l-10 padding-pag-r-10">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5" style="padding: 5%;">
+            <h2 style="padding-bottom: 2%;" class="font-black">Contáctanos</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="name" placeholder="Nombre*" name="name" [(ngModel)]="inputName" (ngModelChange)="formChange()">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="email" placeholder="Correo electronico*" name="email" [(ngModel)]="inputEmail" (ngModelChange)="formChange()">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="phone" placeholder="Número de teléfono*" name="phone" [(ngModel)]="inputPhone" (ngModelChange)="formChange()">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control fondoInput" id="consult" placeholder="Motivo consulta*" name="consult" [(ngModel)]="inputConsult" (ngModelChange)="formChange()">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <textarea class="form-control fondoInput" id="message" rows="4" placeholder="Mensaje*" name="message" [(ngModel)]="inputMessage" (ngModelChange)="formChange()"
+                            style="min-height: 500px;"></textarea>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" (click)="onSubmit()">Enviar</button>
+            </form>
+        </div>
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7" style="padding: 5%;">
+            <app-maps></app-maps>
+        </div>
+    </div>
+</div>
