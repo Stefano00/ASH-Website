@@ -284,7 +284,7 @@
          margin-right:5%;
     }
     .margin-pag-l-30{
-        margin-left:5%;
+        margin-left:3%;
     }
     .margin-pag-r-30{
          margin-right:5%;
@@ -302,5 +302,15 @@
     .padding-pag-r-10{
         padding-right:2%;
     }
+}
+
+.img-principal{
+    width: 100%;
+    background-size: cover;
+}
+
+.contenedor-image-principal{
+    width: 100%;
+    height: auto;
 }
 

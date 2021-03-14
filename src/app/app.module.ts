@@ -18,7 +18,7 @@ import { ServiciosComponent } from './components/home/servicios/servicios.compon
 import { NosotrosComponent } from './components/home/nosotros/nosotros.component';
 import { ExperienciaComponent } from './components/home/experiencia/experiencia.component';
 import { FormsModule } from '@angular/forms';
-import { CarouselColMaxComponent } from './components/home/nuestros-clientes/carousel-col-max/carousel-col-max.component';
+import { CarouselMaxColComponent } from './components/home/carousel-max-col/carousel-max-col.component';
 
 
 
@@ -36,7 +36,7 @@ import { CarouselColMaxComponent } from './components/home/nuestros-clientes/car
     ServiciosComponent,
     NosotrosComponent,
     ExperienciaComponent,
-    CarouselColMaxComponent
+    CarouselMaxColComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +47,5 @@ import { CarouselColMaxComponent } from './components/home/nuestros-clientes/car
   ],
   providers: [],
   bootstrap: [AppComponent]
-
 })
 export class AppModule { }

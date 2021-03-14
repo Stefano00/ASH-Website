@@ -3,7 +3,7 @@
         Proveedores
     </h1>
 </div>
-<div id="carouselExampleControls2" class="carousel slide margin-pag-l-11 margin-pag-r-11" data-ride="carousel">
+<div id="carouselExampleControls2" class="displayPrincipal carousel slide margin-pag-l-11 margin-pag-r-11" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
 
@@ -92,6 +92,39 @@
         <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+        <i class="fas fa-chevron-right color-slide fa-4x" style="margin-bottom: 25%;"></i>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+<div id="carouselExampleControls4" class="carousel displaySecundario slide margin-pag-l-11 margin-pag-r-11 " data-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active" style="text-align: -webkit-center;">
+            <div class="container-fluid carousel-logos" >
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 centrar-horizontal centrar-vertical" >
+                    <img src="assets/images/WEB_ASH_Carpeta/Logo Clientes/ABB.png" alt="Logo Cliente"
+                        class="center-images-90 tamaño-fixed">
+                </div>
+            </div>
+        </div>
+
+
+        <div *ngFor="let imagen of this.image" class="carousel-item ">
+            <div class="container-fluid carousel-logos">
+                <app-carousel-max-col [image]="imagen"></app-carousel-max-col>
+            </div>
+        </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+        <i class="fas fa-chevron-left color-slide fa-4x" style="margin-bottom: 25%;"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
         <i class="fas fa-chevron-right color-slide fa-4x" style="margin-bottom: 25%;"></i>
         <span class="sr-only">Next</span>
     </a>
