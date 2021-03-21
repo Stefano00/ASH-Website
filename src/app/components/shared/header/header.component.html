@@ -1,14 +1,18 @@
 <div class="navbarr" style="width: 100%; margin-left: 0px; padding-left: 0px;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light col-12" style="padding-bottom: 1%; padding-top: 1%;">
-        <a class="navbar-brand margin-pag-l" href="#">
-            <img src="assets/images/WEB_ASH_Carpeta/Logo ASH/Logo ASH Ing y ProBlanco.png" alt="Logo Ash" class="logo">
-        </a>
+        <div class="container-fluid">
+            <div class="row">
+                <button style="color: white;" class="navbar-toggler col-2" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand margin-pag-l col-8" href="#">
+                    <img src="assets/images/WEB_ASH_Carpeta/Logo ASH/Logo ASH Ing y ProBlanco.png" alt="Logo Ash" class="logo">
+                </a>
+            </div>
+        </div>
 
-        <button style="color: white;" class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div class="collapse navbar-collapse margin-pag-r" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -65,10 +69,10 @@
 
     </nav>
 
-    <div *ngIf="buscador" class="buscador-responsive-none">
-        <div *ngIf="buscador" class="buscador col-12" style="color: white;">
-            <div class="container-fluid" style="padding-top: 1.5rem;  ">
-                <div class="row">
+    <div *ngIf="buscador" class="buscador-responsive-none animate__animated animate__fadeIn">
+        <div *ngIf="buscador" class="buscador col-12 animate__animated animate__fadeIn" style="color: white;">
+            <div class="container-fluid animate__animated animate__fadeIn" style="padding-top: 1.5rem;  ">
+                <div class="row animate__animated animate__fadeIn">
                     <div class="btn my-2 my-sm-0 col-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: black;">
                             <path

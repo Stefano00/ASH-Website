@@ -1,5 +1,5 @@
-<div class="contenedor-image-principal">
-    <img src="assets/images/WEB_ASH_Carpeta/Links/IMG_0034.jpg" alt="Imagen fondo" class="img-principal">
+<div class="contenedor-image-principal portada">
+    <!-- <img src="assets/images/WEB_ASH_Carpeta/Links/IMG_0034.jpg" alt="Imagen fondo" class="img-principal"> -->
 </div>
 
 
@@ -82,7 +82,7 @@
     <div class="row" style="margin: 0px">
         <div class="col-12 col-sm-12 col-md-5 col-lg-5" style="padding: 5%;">
             <h2 style="padding-bottom: 2%;" class="font-black">Contáctanos</h2>
-            <form>
+            <form *ngIf="!this.cargandoFormulario">
                 <div class="form-row">
                     <div class="form-group col-md-12">
                         <input type="text" class="form-control fondoInput" id="name" placeholder="Nombre*" name="name" [(ngModel)]="inputName" (ngModelChange)="formChange()">
@@ -98,12 +98,14 @@
                     </div>
                     <div class="form-group col-md-12">
                         <textarea class="form-control fondoInput" id="message" rows="4" placeholder="Mensaje*" name="message" [(ngModel)]="inputMessage" (ngModelChange)="formChange()"
-                            style="min-height: 500px;"></textarea>
+                            style="min-height: 400px;"></textarea>
                     </div>
                 </div>
 
                 <button class="btn btn-primary" (click)="onSubmit()">Enviar</button>
+                
             </form>
+            <i *ngIf="this.cargandoFormulario" class="fas fa-sync fa-spin fa-3x"></i>
         </div>
         <div class="col-12 col-sm-12 col-md-7 col-lg-7" style="padding: 5%;">
             <app-maps></app-maps>
