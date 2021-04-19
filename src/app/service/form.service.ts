@@ -20,7 +20,6 @@ export class FormService {
     }
 
     formPost(form: formModel): Observable<formModel> {
-        console.log(form);
         return this.httpService.post<formModel>('https://localhost:44395/api/form', form);
     }
 

@@ -90,7 +90,14 @@ export class HomeComponent implements OnInit {
               })
             }
             
-          });
+          }, (error: any) => {
+            this.cargandoFormulario = false;
+              Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Por favor inténtelo nuevamente',
+              })
+            })
         }
       } 
 

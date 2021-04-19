@@ -19,6 +19,8 @@ import { NosotrosComponent } from './components/home/nosotros/nosotros.component
 import { ExperienciaComponent } from './components/home/experiencia/experiencia.component';
 import { FormsModule } from '@angular/forms';
 import { CarouselMaxColComponent } from './components/home/carousel-max-col/carousel-max-col.component';
+import { ProcesosProductivosIndustrialesComponent } from './components/home/procesos-productivos-industriales/procesos-productivos-industriales.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -36,13 +38,15 @@ import { CarouselMaxColComponent } from './components/home/carousel-max-col/caro
     ServiciosComponent,
     NosotrosComponent,
     ExperienciaComponent,
-    CarouselMaxColComponent
+    CarouselMaxColComponent,
+    ProcesosProductivosIndustrialesComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
    
   ],
   providers: [],

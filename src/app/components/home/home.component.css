@@ -201,16 +201,16 @@
      margin-right:25%;
 }
 .padding-pag-l-12{
-    padding-left:12%;
+    padding-left:16%;
 }
 .padding-pag-r-12{
-    padding-right:12%;
+    padding-right:16%;
 }
 .padding-pag-l-10{
-    padding-left:10%;
+    padding-left:14%;
 }
 .padding-pag-r-10{
-    padding-right:10%;
+    padding-right:14%;
 }
 
 @media (max-width: 1269px) {
@@ -246,16 +246,16 @@
          margin-right:10%;
     }
     .padding-pag-l-12{
-        padding-left:5%;
+        padding-left:10%;
     }
     .padding-pag-r-12{
-        padding-right:5%;
+        padding-right:10%;
     }
     .padding-pag-l-10{
-        padding-left:5%;
+        padding-left:10%;
     }
     .padding-pag-r-10{
-        padding-right:5%;
+        padding-right:10%;
     }
 }
 @media (max-width: 767px) {

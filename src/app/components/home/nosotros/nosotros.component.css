@@ -1,7 +1,7 @@
 .font-nosotros{
         color: #272751;
         font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 22px;
+        font-size: 18px;
         text-align: left;
         line-height: 1.5rem;
 }
@@ -26,6 +26,6 @@
 p{
     color: black;
         font-family: Roboto, Arvo, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         text-align: left;
 }

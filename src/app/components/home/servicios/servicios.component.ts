@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
+import { windowWhen } from 'rxjs/operators';
+import { ICardModel } from 'src/app/Model/cardModel';
 
 @Component({
   selector: 'app-servicios',
   templateUrl: './servicios.component.html',
   styleUrls: ['./servicios.component.css', '../home.component.css']
 })
+
+
 export class ServiciosComponent implements OnInit {
 
   
@@ -16,6 +20,39 @@ export class ServiciosComponent implements OnInit {
   cardBoolean6: boolean = false;
   cardBoolean7: boolean = false;
 
+
+  cards: ICardModel[] = [
+    { title: 'Asesorías, estudios, desarrollo de ingeniería de detalle y software',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Asesorías.png',
+      id: 'card1'
+    },
+    { title: 'Desarrollo de software para la industria.',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Control.png',
+      id: 'card2'
+    },
+    { title: 'Proyectos y servicios para el control de procesos industriales',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Servicios2.png',
+      id: 'card3'
+    },
+    { title: 'Montaje eléctrico e instrumentación',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Montaje.png',
+      id: 'card4'
+    },
+    { title: 'Sistemas de circuito integrado de televisión (CCTV) industrial y megafonía',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Servicios.png',
+      id: 'card5'
+    },
+    { title: 'Integración de fuerza y control.',
+      link: 'http://www.google.cl',
+      image: 'assets/images/WEB_ASH_Carpeta/Iconos/1x/Gabinetes.png',
+      id: 'card6'
+    }
+  ]
 
   constructor() { }
 
