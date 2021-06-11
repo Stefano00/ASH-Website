@@ -18,11 +18,8 @@ export class FormService {
     constructor(private httpService: HttpClient) {
 
     }
-
     formPost(form: formModel): Observable<formModel> {
-        return this.httpService.post<formModel>('https://localhost:44395/api/form', form);
+        return this.httpService.post<formModel>('http://ashing.dyndns.tv/AshMailApi2021/api/form', form);
     }
-
-
 
 }
